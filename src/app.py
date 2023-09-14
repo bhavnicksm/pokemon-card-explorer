@@ -34,7 +34,7 @@ def card(urls):
 
 st.image('assets/International_Pokémon_logo.svg.png')
 st.markdown("<h1 style='text-align: center;'>Pokemon Card Explorer</h1>", unsafe_allow_html=True)
-query = st.text_input("What are you looking for?", "")
+query = st.text_input("", "Describe the Pokemon Card you are looking for...")
 
 if query != "":
     with st.spinner(text="Similarity Searching..."):
