@@ -6,7 +6,7 @@ A simple semantic vector search engine over all 13000+ trading cards ever to be 
 
 ![Tutorial Video](assets/streamlit-app-2023-09-15-18-09-95.webm)
 
-https://github.com/bhavnicksm/pokemon-card-explorer/blob/main/assets/streamlit-app-2023-09-15-18-09-95.webm
+![](https://github.com/bhavnicksm/pokemon-card-explorer/blob/main/assets/streamlit-app-2023-09-15-18-09-95.webm)
 
 # Motivation 🤔
 
