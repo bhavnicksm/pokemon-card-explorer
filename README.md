@@ -32,6 +32,6 @@ Just do it! ✔️
 
 # Acknowledgements 
 
-Thank you to **Niantic** for making my childhood special! 💙
+Thank you to **Pokemon** for making my childhood special! 💙
 
 ![Pikachu heart](https://media.giphy.com/media/X5jBK75e04uDS/giphy.gif)
