@@ -2,9 +2,11 @@
 
 # [Pokemon Card Explorer](https://pokemoncards.streamlit.app/)
 
-A simple semantic vector search engine over all 13000+ trading cards ever to be released by Niantic, using a very straightforward stack including Pinecone (for Vector Database), Cohere (for embeddings) and Streamlit (for deployment). 
+A simple semantic vector search engine over all **13000+ trading cards** ever to be released by Niantic, using a very straightforward stack including **Pinecone** (for Vector Database), **Cohere** (for embeddings) and **Streamlit** (for deployment). 
 
-![Tutorial Video](assets/streamlit-app-2023-09-15-18-09-95.webm)
+
+![Tutorial GIF](assets/tutorial.gif)
+
 
 # Motivation 🤔
 
@@ -12,13 +14,13 @@ Why? 'cause WHY NOT!
 
 Any pokemon fan would agree 😌
 
+![Pikachu](https://media.giphy.com/media/xuXzcHMkuwvf2/giphy.gif)
 
+# Implimentation 🛠️
 
-# Implimentation
+Just do it! ✔️
 
-Add process here....
-
-
+![Hehe](https://media.giphy.com/media/3kzJvEciJa94SMW3hN/giphy.gif)
 
 ## To do
 
@@ -27,3 +29,7 @@ Add process here....
 - [ ] Get estimates for cost of maintaing the site
 
 # Acknowledgements 
+
+Thank you to **Niantic** for making my childhood special! 💙
+
+![Pikachu heart](https://media.giphy.com/media/X5jBK75e04uDS/giphy.gif)
