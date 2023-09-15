@@ -8,6 +8,8 @@ A simple semantic vector search engine over all **13000+ trading cards** ever to
 ![Tutorial GIF](assets/tutorial.gif)
 
 
+![](https://github.com/bhavnicksm/pokemon-card-explorer/blob/main/assets/streamlit-app-2023-09-15-18-09-95.webm)
+
 # Motivation 🤔
 
 Why? 'cause WHY NOT!
