@@ -99,7 +99,6 @@ In the query step, the user provided question is simply passed into the **same**
 
 ## To do
 
-- [ ] Augment the dataset with information about the pokemon from PokemonDB
 - [ ] Use longer length embedding model (512 tokens vs 8192 tokens)
 - [ ] Get estimates for cost of maintaing the site
 
