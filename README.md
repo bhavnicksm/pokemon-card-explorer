@@ -2,7 +2,7 @@
 
 # [Pokemon Card Explorer](https://pokemoncards.streamlit.app/)
 
-A simple semantic vector search engine over all **13000+ trading cards** ever to be released by Niantic, using a very straightforward stack including **Pinecone** (for Vector Database), **Cohere** (for embeddings) and **Streamlit** (for deployment).
+A simple semantic vector search engine over all **13000+ trading cards** ever to be released by Niantic, using a very straightforward stack including **Pinecone** (for Vector Database), **OpenAI** (for embeddings), **Cohere** (for Re-ranking) and **Streamlit** (for deployment).
 
 Data Augmentation via web-scrapping was done to improve the search accuracy. Web-scraping was done using **requests** and **BS4**. 
 
