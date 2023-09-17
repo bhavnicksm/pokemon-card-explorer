@@ -88,7 +88,7 @@ Essentially, this can be summarized by the diagram below.
 
 
 
-In the query step, the user provided question is simply passed into the **same** embedding model that was used in the injestion and sent to the vectorDB for semantic search against the Card Embeddings, which then gives out the K nearest matches for the query embeddings, our final result!
+In the query step, the user provided question is simply passed into the **same** embedding model that was used in the injestion and sent to the vectorDB for semantic search against the Card Embeddings, which then gives out the K nearest matches for the query embeddings. Now, the k-nearest matches are sent to a re-ranker model which rankes each of the matches against a query on the match relevancy and provides us our final output, ranked Pokemon Cards!
 
 ![Alt text](assets/query_pipeline.png)
 
@@ -97,10 +97,16 @@ In the query step, the user provided question is simply passed into the **same**
 
 ![Hehe](https://media.giphy.com/media/3kzJvEciJa94SMW3hN/giphy.gif)
 
-## To do
+# FAQ
 
-- [ ] Use longer length embedding model (512 tokens vs 8192 tokens)
-- [ ] Get estimates for cost of maintaing the site
+## How much does it cost to run and maintain this site?
+Glad you asked! It costs me nothing to keep the Pinecone Vector DB running (but it might shutdown in a few days if not queried) and for CO:here's reranking API which is free. OpenAI charges me per token but the value is quite affordable. It cost me about $2 to get embeddings for the entire dataset. So this entire project just costs me $2 and about 3 days of time. 
+
+## The site is down with a error, why is it not running?
+Probably because Pinecone deleted the index, which means that I would have to re-upload the embeddings on Pinecone again. Pinecone deletes indices that haven't been used in a week under the free version. 
+
+## You're so awesome, how can I be like you?
+You can't. Sorry.
 
 # Acknowledgements 
 
