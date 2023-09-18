@@ -5,6 +5,16 @@ import pinecone
 import cohere 
 import openai
 
+st.set_page_config(
+    page_title="Pokemon Card Explorer",
+    page_icon="🔍",
+    layout="centered",
+    menu_items={
+        'Get Help': 'mailto:bhavnicksm@gmail.com',
+        'Report a bug': "https://github.com/bhavnicksm/pokemon-card-explorer/issues",
+        'About': "Pokemon Card Explorer lets you do super power semantic search over 13K Pokemon cards, to find the one you are looking for!"
+    }
+)
 
 OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 COHERE_API_KEY = os.environ['COHERE_API_KEY']
