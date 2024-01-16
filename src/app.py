@@ -67,11 +67,11 @@ if query != "":
 
         # Use the qdrant index to get top 6 results
         # qcs = index.query(qemb, top_k=6, include_metadata=True)
-        qcs = index.search('pokemon-cards', query_vector=qemb, limit=6, with_payload=True)
+        qcs = index.search('pokemon-cards', query_vector=qemb, limit=12, with_payload=True)
 
         qtexts = [sp.payload['text'] for sp in qcs]
-        rr_resp = reranker.rerank(model="rerank-english-v2.0", query=query, documents=qtexts, top_n=6)
-        reranked_index = [rr_resp[i].index for i in range(6)]
+        rr_resp = reranker.rerank(model="rerank-english-v2.0", query=query, documents=qtexts, top_n=3)
+        reranked_index = [rr_resp[i].index for i in range(3)]
 
         rr_qcs = [qcs[ind].payload for ind in reranked_index]
         
